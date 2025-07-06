@@ -1,0 +1,27 @@
+.new-collections {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+.new-collections h2 {
+    font-size: 30px;
+    margin-top: 20px;
+}
+.new-collections hr {
+    width: 175px;
+    height: 6px;
+    color: black;
+    background-color: black;
+    border-radius: 10px;
+}
+.collections {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+}
