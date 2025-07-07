@@ -8,6 +8,6 @@ function Breadcrum(props) {
       Home <img src={arrow_icon} alt="" className="" /> Shop <img src={arrow_icon} alt="" className="" /> {Product.category} <img src={arrow_icon} alt="" className="" /> {Product.name}
     </div>
   )
-}
+} 
 
 export default Breadcrum
