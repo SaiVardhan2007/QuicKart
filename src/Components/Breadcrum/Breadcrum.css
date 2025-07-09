@@ -1,0 +1,14 @@
+.breadcrum {
+    margin-top: 50px;
+    margin-left: 70px;
+    border-bottom: 1px solid #eee;
+}
+
+.breadcrumb a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+.breadcrumb a:hover {
+    text-decoration: underline;
+}

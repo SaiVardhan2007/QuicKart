@@ -5,7 +5,7 @@ import { ShopContext } from '../Context/ShopContext'
 import Item from '../Components/Item/Item'
 
 function ShopCategory(props) {
-  const {all_product} = useContext(ShopContext);
+  const {all_products} = useContext(ShopContext);
   return (
     <>
       <div className="shop-category">
@@ -17,7 +17,7 @@ function ShopCategory(props) {
           </div>
         </div>
         <div className="shopCategory-products">
-          {all_product.map((item, i) => {
+          {all_products.map((item, i) => {
             if(item.category+"s" === props.category) {
               return <Item key={i} id = {item.id} name = {item.name} image = {item.image} new_price = {item.new_price} old_price = {item.old_price} />
             }
