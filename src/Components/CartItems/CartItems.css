@@ -1,0 +1,119 @@
+.cart-items {
+  margin: 100px 140px;
+}
+.cart-items hr {
+    height: 3px ;
+    background-color: #e2e2e2;
+    border: none;
+}
+.cartItems-remove-icon {
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.cartItems-title {
+    margin-right: 15px;
+}
+.cartItems-format {
+  display: grid;
+    grid-template-columns: 1fr 1.5fr 0.6fr 0.6fr 0.6fr 0.6fr;
+  margin: 15px;
+  gap: 20px;
+  align-items: center;
+}
+.carticon-product-icon {
+  width: 100px;
+  height: 100px;
+}
+.cartItems-format button {
+    background-color: #f0f0f0;
+    border: none;
+    width: 25px;
+    margin: 10px;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.cartItems-format-main {
+     display: grid;
+    grid-template-columns: 1fr 1.5fr 0.6fr 0.6fr 0.6fr 0.6fr;
+  margin: 15px;
+  gap: 20px;
+  align-items: center;
+}
+.cartItems-total-price-value {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.CartItems-down {
+    display: flex;
+    flex-direction: row;
+    width: 80vw;
+}
+.CartItems-title {
+    font-weight: 600;
+    font-size: 32px;
+    font-family: "Roboto";
+    margin:70px 0 40px 0;
+}
+.CartItems-down hr{
+    margin: 15px 0;
+}
+.cartItems-total {
+    width: 37vw;
+    display: flex;
+    flex-direction: column;
+}
+.cartItems-price {
+    font-weight: 600;
+}
+.cartItems-checkout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: none;
+    cursor: pointer;
+    width: 25%;
+    height: 40px;
+    min-width: 100px;
+}
+.cartItems-checkout:hover {
+    background-color: #e0e0e0;
+}
+.cartItems-total-items {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0;
+
+}
+.cartItems-promoCode {
+    margin: 120px 0px 0px 120px;
+
+}
+.cartItems-promoCode input {
+    width: 300px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.cartItems-promoCode button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.cartItems-promoCode button:hover {
+    background-color: #0056b3;
+}
+.cartItems-promoCode p {
+    margin-bottom: 10px;
+    font-size: 13px;
+    color: #808080;
+    font-family: "Roboto";
+}

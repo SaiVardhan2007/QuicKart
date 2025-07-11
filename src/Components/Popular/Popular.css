@@ -1,4 +1,5 @@
-.popular {
+.popular 
+ {
     padding: 20px;
     display: flex;
     flex-direction: column;
@@ -8,19 +9,29 @@
 
 .popular h2 {
     font-size: 30px;
+    margin-top: 20px;
     margin-bottom: 10px;
 }
 .popular hr {
-    width: 200px;
+    width: 175px;
     height: 6px;
     color: black;
     background-color: black;
     border-radius: 10px;
 }
 .popular-items {
-    margin-top: 20px;
+    /* margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center; */
+    display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, auto));
+  gap: 40px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px; 
+  margin: 0 auto; 
+  box-sizing: border-box;
 
 }

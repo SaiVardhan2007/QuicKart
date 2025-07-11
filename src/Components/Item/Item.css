@@ -1,5 +1,6 @@
 .item {
-    width: 300px;
+    max-width: 300px;
+    min-width: 170px;
     
 }
 .item p{
@@ -7,8 +8,8 @@
 }
 
 .item img {
-    width: 100%;
-    height: auto;
+    max-width: 300px;
+    min-width: 200px;
 }
 
 .item-price {
@@ -32,4 +33,33 @@
 .item:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
+}
+@media(max-width:1024px){
+    .item{
+        transform: scale(0.9);
+        
+    }
+}
+@media(max-width:909px){
+    .item{
+        transform: scale(1.1);
+    }
+}
+@media(max-width:790px){
+    .item{
+        transform: scale(1);
+    }
+}
+@media(max-width:619px){
+    .item{
+        transform: scale(0.8);
+    }
+}
+@media(max-width:540px){
+    .item{
+        transform: scale(1.04);
+    }
+    .item:hover  {
+        transform: scale(1.11);
+    }
 }

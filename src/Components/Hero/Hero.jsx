@@ -21,7 +21,7 @@ export default function Hero() {
 
       </div>
       <div className="hero-right">
-         <img src ={hero_img}   alt="Hero" />
+         <img src ={hero_img}   alt="Hero" className='hero-img' />
       </div>
     </div>
   )
