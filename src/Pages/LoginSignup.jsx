@@ -14,7 +14,9 @@ function LoginSignup() {
           <input type="checkbox" />
           <p>I agree to the <span>Terms & Conditions</span> and <span>Privacy Policy</span></p>
         </div>
+        <div>
         <button>Continue</button>
+        </div>
         <p className="loginsignup-login">Already have an account? <span>Login</span></p>
       </div>
     </div>

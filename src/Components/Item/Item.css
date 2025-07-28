@@ -1,6 +1,10 @@
 .item {
-    max-width: 300px;
-    min-width: 170px;
+    max-width: 270px;
+    min-width: 10px;
+    max-height: 450px;
+    margin: 10px;
+    width: 100%;
+      transform: scale(1);
     
 }
 .item p{
@@ -8,8 +12,9 @@
 }
 
 .item img {
-    max-width: 300px;
-    min-width: 200px;
+    max-width: 270px;
+    min-width: 10px;
+    width: 100%;
 }
 
 .item-price {
@@ -34,15 +39,21 @@
     transform: scale(1.05);
     transition: transform 0.3s ease-in-out;
 }
+@media(max-width:1124px){
+    .item{
+        transform: scale(1.1);
+        
+    }
+}
 @media(max-width:1024px){
     .item{
-        transform: scale(0.9);
+        transform: scale(1);
         
     }
 }
 @media(max-width:909px){
     .item{
-        transform: scale(1.1);
+        transform: scale(1);
     }
 }
 @media(max-width:790px){
@@ -50,9 +61,15 @@
         transform: scale(1);
     }
 }
-@media(max-width:619px){
+@media(max-width:660px){
     .item{
         transform: scale(0.8);
+    }
+}
+
+@media(max-width:639px){
+    .item{
+        transform: scale(1.1);
     }
 }
 @media(max-width:540px){

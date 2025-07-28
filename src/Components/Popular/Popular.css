@@ -20,18 +20,18 @@
     border-radius: 10px;
 }
 .popular-items {
-    /* margin-top: 20px;
+    margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    justify-content: center; */
-    display: grid;
+    justify-content: center;
+    /* display: grid;
   grid-template-columns: repeat(auto-fill, minmax(210px, auto));
   gap: 40px;
   justify-content: center;
   padding: 20px;
   max-width: 1200px; 
   margin: 0 auto; 
-  box-sizing: border-box;
+  box-sizing: border-box; */
 
 }

@@ -3,7 +3,7 @@
   justify-content: center;
   align-items: center;
   height: 90vh;
-    background-color: #f1c9f1;
+  background-color: #f1c9f1;
   width: 100%;
 }
 .login-signup-container button{
@@ -53,4 +53,40 @@
 .loginsignup-login {
   margin-top: 12px;
   text-align: center;
+}
+@media(max-width: 510px) {
+.login-signup-container {
+  padding: 25px;
+}
+.login-signup-container h1 {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.login-signup-fields {
+  margin-top: 1px;
+  gap: 7px;
+  margin-bottom: 10px;
+}
+.login-signup-fields input {
+    height: 25px;
+    padding: 0 6px;
+}
+.login-signup-agree {
+  margin-top: 8px;
+}
+.login-signup-agree p {
+  font-size: 12px;
+}
+.login-signup-container button {
+   width: 60%;
+    height: 25px;
+    background-color: #4845e9;
+    border: none;
+    color: white;
+    margin: 6px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-left: 50px;
+    border-radius: 3px;
+}
 }
